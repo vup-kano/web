@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2021-03-12 15:10:22
+ * @version $Id$
+ */
+
+.u-box {
+  position: absolute;
+  top: 40px;
+  left: 120px;
+  height: 500px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+
+.hide {
+  display: none;
+}
+
+header{
+	height: 600px;
+	width: 800px;
+	background: #666;
+	display: flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+ }
+
+.shape{
+	display: flex;
+	width: 150px;
+	height: 150px;
+	padding-left: 30px;
+	padding-right: 80px;
+	padding-top: 50px;
+ }
+
+.bigshape{
+	display: flex;
+	width: 400px;
+	height: 400px;
+	padding-left: 50px;
+	padding-top: 50px;
+}
+
+section{
+	padding-top: 40px;
+}
+section>.menu{
+	display: flex;
+	text-align: center;
+}
+section>.menu>span{
+	display:block;
+ 	width: 100px;
+ 	height: 20px;
+ 	margin:0 0 -2px -2px;
+	border:2px solid black;
+ }
+
+
+ section>.date{
+ 	width: 800px;
+ 	height: 200px;
+ 	margin:0 0 0 -2px;
+ 	border:2px solid black;
+ }
+
+ section>.date>.p1,section>.date>.p2,section>.date>.p3{
+ 	display: none;
+ }
+
+section>.m-manage {
+  border: 2px solid black;
+  height: 250px;
+  width: 800px;
+  margin-top: 10px;
+  margin-left: -2px;
+  position: relative;
+}
+
+.u-content {
+  display: flex;
+  border: 1px solid #333;
+  height: 35px;
+  width: 500px;
+  margin-top: 10px;
+}
+
+.u-no {
+  border-right: 1px solid #333;
+  text-align: center;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+}
+
+.u-info {
+  width: 290px;
+}
+
+.u-del {
+  border-left: 1px solid #333;
+  text-align: center;
+  width: 65px;
+  line-height: 35px;
+}
+
+section>.m-manage>.u-add {
+  height: 35px;
+  width: 95px;
+  border: 1px solid #333;
+  background: #339966;
+  color: #fff;
+  text-align: center;
+  line-height: 35px;
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+}

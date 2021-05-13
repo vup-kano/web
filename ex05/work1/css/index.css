@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2021-03-12 15:10:22
+ * @version $Id$
+ */
+.cnt{
+	width: 900px;
+	height: 700px;
+	background: #99bd90;
+	padding-top: 10px;
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+	width: 760px;
+	height: 120px;
+	border:20px solid;
+	display: flex;
+	border-color: #cdd3f5;
+	border-bottom-width:10px;
+}
+
+.box1{
+	width: 80px;
+	height: 80px;
+	margin: 20px;
+	display: flex;
+	background: #cdd3f5;
+	/*align-self: flex-start;*/
+}
+
+
+.box1:nth-child(5){
+	margin-left:180px; 
+	/*align-self: flex-end;*/
+}
+
+.cnt1{
+	width:760px;
+	height: 420px;
+	border:20px solid;
+	border-color: #cdd3f5;
+	display: flex;
+	border-top-width: 10px;
+}
+
+.left{
+	width:240px;
+	height: 420px;
+	/*background: white;*/
+	flex-direction: column;
+    align-items: center;
+    display: flex;
+
+}
+
+.top{
+	display: flex;
+	width: 200px;
+	height:300px;
+	margin: 20px 0 20px 0;
+	background: #cdd3f5;
+}
+
+.bottom{
+	justify-content: space-between;
+	width: 200px;
+	display: flex;
+}
+
+.sbox{
+	width: 50px;
+	height: 50px;
+	display: flex;
+	background: #cdd3f5;
+}
+
+.right{
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	width: 520px;
+	height: 370px;
+	margin-top: 20px;
+	display: flex;
+}
+
+.cbox{
+	width: 480px;
+	height: 40px;
+	background: #cdd3f5;
+	display: flex;
+}
